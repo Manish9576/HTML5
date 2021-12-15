@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        h1 {
+            background-color: lightgreen;
+            font-size: 2em;
+            display: inline;
+        }
+        
+        span {
+            background-color: teal;
+            font-size: 1.25em;
+            display: block;
+        }
+        
+        ul {
+            background-color: #111;
+            /* width: 1000px; */
+            /* border-bottom-right-radius: 40px; */
+            position: sticky;
+            top: 0px;
+            left: 0;
+            margin-bottom: 10px;
+        }
+        
+        ul li {
+            list-style: none;
+            display: inline-block;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            padding: 12px 28px;
+            text-align: center;
+            width: 200px;
+        }
+        
+        ul li a:hover {
+            background-color: #333;
+            border-bottom: 4px solid #f9f9f9;
+        }
+        
+        p {
+            font-size: 1.5em;
+            font-weight: 300;
+            padding: 1em;
+            text-align: justify;
+        }
+        
+        p:nth-child(odd) {
+            background-color: lightgray;
+        }
+        
+        #selected {
+            /* position: relative;
+            left: 100px;
+            top: 50px; */
+            margin-top: 50px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            ul li {
+                display: block;
+            }
+        }
+        
+        #btn {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            bottom: 10px;
+            right: 30px;
+            opacity: 0.9;
+            z-index: 999;
+        }
+        
+        div a {
+            color: #f9f9f9;
+            text-decoration: none;
+            font-size: 3em;
+            font-weight: 500;
+        }
+        
+        .box {
+            height: 200px;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+
+    <p id="top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque voluptatibus debitis veniam deleniti libero neque nisi, nostrum, itaque animi minima veritatis tempora laborum, dolorum blanditiis laudantium eveniet deserunt cumque.</p>
+    <p id="selected">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque voluptatibus debitis veniam deleniti libero neque nisi, nostrum, itaque animi minima veritatis tempora laborum, dolorum blanditiis laudantium eveniet deserunt cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque voluptatibus debitis veniam deleniti libero neque nisi, nostrum, itaque animi minima veritatis tempora laborum, dolorum blanditiis laudantium eveniet deserunt cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque voluptatibus debitis veniam deleniti libero neque nisi, nostrum, itaque animi minima veritatis tempora laborum, dolorum blanditiis laudantium eveniet deserunt cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque voluptatibus debitis veniam deleniti libero neque nisi, nostrum, itaque animi minima veritatis tempora laborum, dolorum blanditiis laudantium eveniet deserunt cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque voluptatibus debitis veniam deleniti libero neque nisi, nostrum, itaque animi minima veritatis tempora laborum, dolorum blanditiis laudantium eveniet deserunt cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque voluptatibus debitis veniam deleniti libero neque nisi, nostrum, itaque animi minima veritatis tempora laborum, dolorum blanditiis laudantium eveniet deserunt cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque voluptatibus debitis veniam deleniti libero neque nisi, nostrum, itaque animi minima veritatis tempora laborum, dolorum blanditiis laudantium eveniet deserunt cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque voluptatibus debitis veniam deleniti libero neque nisi, nostrum, itaque animi minima veritatis tempora laborum, dolorum blanditiis laudantium eveniet deserunt cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque voluptatibus debitis veniam deleniti libero neque nisi, nostrum, itaque animi minima veritatis tempora laborum, dolorum blanditiis laudantium eveniet deserunt cumque.</p>
+
+    <div id="btn"><a href="#top">&#11014;</a></div>
+
+
+    <div class="box" style="background-color: red;width:500px;z-index:999;opacity:0.5;"></div>
+    <div class="box" style="background-color: green;position:relative;bottom:100px;z-index: -9;"></div>
+
+
+</body>
+
+</html>
